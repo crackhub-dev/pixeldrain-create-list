@@ -7,4 +7,5 @@
 - Click on cookie-editor extension
 - Go to the "pd_auth_key" cookie and copy it's value into "auth_key.txt" (it should follow this format: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)
 - Done!
+- note: you can leave the txt file empty (don't delete it, just empty) to use no account.
 # Windows & Linux Binaries can be found in releases section
