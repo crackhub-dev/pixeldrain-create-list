@@ -5,14 +5,8 @@ title = input('Enter List Title: ')
 
 try:
   f = open('links.txt')
-
-  
   pd_auth_key = open('auth_key.txt').read()
-
-      #print('Place auth_key.txt next to program and paste your pd_auth_key into it.')
-      #print("Don't know where to get it? Get cooki-editor browser extension, go to pixeldrain.com, sign in, click on cooki-editor extension and copy the value of 'pd_auth_key' cookie.")
   l_list = f.readlines()
-
   id_list = []
   for link in l_list:
        f_id = link.split('/')[-1].strip('\n')
@@ -24,8 +18,7 @@ try:
     "files": [
     ]
   }
-
-
+  
   for f_id in id_list:
       json_dict['files'].append({"id":f_id, "description": "none" },)
 
